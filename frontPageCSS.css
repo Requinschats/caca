@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("forest-wallpaper-hd.jpg");
+    background-attachment: fixed;
+}
+
+a{
+    color:  rgb(0, 51, 26);
+    text-decoration:none;
+    font-size:100%
+}
+a:hover{
+    font-size:125%;
+}
+a:active{
+    color:pink;
+}
+
+
+.Header{
+    text-align: center;
+
+}
+
+.Olivier{
+    margin-top: 80px;
+    font-size: 400%;
+    color: rgb(0, 51, 26);
+}
+
+.Olivier:hover{
+}
+
+.CV{
+    text-align: center;
+    margin: 5px;
+}
+
+.Menu{
+    text-align: center;
+    font-family: "Tahoma", Geneva, sans-serif;
+}
+
+.facebook{
+    font-size:36px;
+    color:MidnightBlue ;
+    text-align:center;
+    transition: transform 0.5s;
+    margin-right: 1%;
+}
+
+facebook:hover {
+    font-size: 150%;
+}
+
+.instagram{
+    font-size:36px;
+    text-align:center;
+    color: #cd486b;
+    margin-right: 1%;
+}
+
+.info{
+    color: #fcefff;
+}
+
+footer {
+    width: 100%;
+    bottom: 100px;
+    position: fixed;
+    color: darkgreen;
+    text-align: center;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    float: bottom;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin: auto;
+    cursor:auto;
+    float: bottom;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: relative;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.space {
+
+    padding-bottom: 500px;
+}
+
+.center{
+    text-align: center;
+}
+
+.experience{
+    font-size: 400%;
+    color: rgb(0, 51, 26);
+}
+
+
+.column1 {
+    float: left;
+    margin-left: 17%;
+    margin-right: 2%;
+    width: 30%;
+    color: white;
+    margin-top: 3%;
+    text-align: justify;
+}
+.column2 {
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+    width:30%;
+    color: white;
+    text-align: justify;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    Width: 100%;
+    bottom: 10%;
+    text-align: center;
+    font-size: 400%;
+    float: bottom;
+    color: rgb(0, 51, 26);
+}
+i{
+    color: cyan;
+    font-size: 4000px;
+    text-align: center;
+}
+
+h4{
+    color: black;
+}
+
+h3{
+    color:black
+}
+
+p{
+    color: black;
+}
+
+
+
+
+
